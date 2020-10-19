@@ -11,20 +11,25 @@
         <ul> 
             <li><a href="index.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <form>
-        <label>Sign up for our newsletter:
-            <input type="text">  
+    <form action="" method="get" class="form-example">
+        <div class="form">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
 
-        </label>
+        <div class="form">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form">
+          <input type="submit" value="Subscribe!">
+        </div>
+      </form>
 
-        <button> Subscribe</button>
-
-
-    </form>
     
 </body>
 </html>
