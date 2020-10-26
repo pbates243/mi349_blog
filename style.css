@@ -17,15 +17,17 @@ h1{
 }
 
 p{
-    line-height: 1.4em;
+    line-height: 4em;
+    width: 200px;
 
 }
 #blog{
-    border-top: 1px dotted #242424;
+    border-top: 1px dotted #000000;
 
 }
 
 .blog-post{
-    border-bottom: 1px solid #242424;
+    border-bottom: 1px solid #000000;
 
 }
+
