@@ -31,3 +31,18 @@ p{
 
 }
 
+h3{
+    color: lightslategray;
+}
+
+h2{
+    color: lightslategray;
+}
+
+th{
+    color: rebeccapurple;
+}
+
+td{
+    color: blue;
+}
