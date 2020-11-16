@@ -13,6 +13,7 @@ body{
 h1{
     font-size: 3em;
     margin: 0;
+    
 
 }
 
@@ -21,13 +22,10 @@ p{
     
 
 }
-#blog{
-    border-top: 1px dotted #000000;
-
-}
 
 .blog-post{
     border-bottom: 1px solid #000000;
+    border-top: 1px dotted #000000;
 
 }
 
@@ -45,4 +43,47 @@ th{
 
 td{
     color: blue;
+}
+
+section{
+    background-color: darkgray;
+    display: flex;
+}
+
+article{
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+
+article:nth-of-type(0){
+    flex: 2;
+
+}
+
+article:nth-of-type(2){
+    flex: 2;
+}
+
+.sticky{
+    
+    background-origin: padding-box;
+    background-color: coral;
+    outline-style: groove;
+    position: sticky;
+    margin: -50px, 20px;
+    top: 0;
+}
+
+.img-container {
+    margin-right: 20px;
+
+
+    float: left;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
 }
